@@ -3,6 +3,7 @@
 
 #include "common.h"
 #include "volumes/volume.h"
+#include "material.h"
 
 class camera {
     public:
@@ -68,8 +69,11 @@ class camera {
             }
             hit_record rec;
             if (world.hit(r, interval(0.001, INF), rec)) {
-                vec3 direction = rec.normal + random_unit_vector();
-                return 0.5 * ray_color(ray(rec.p, direction), world, depth - 1);
+                ray scattered;
+                color attenuation;
+                if (rec.mat->scatter(r, rec, attenuation, scattered))
+                    return attenuation * ray_color(scattered, world, depth - 1);
+                return color(0, 0, 0);
             }
 
             vec3 unit_direction = unit_vector(r.direction());

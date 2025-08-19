@@ -928,6 +928,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Users/dominicperno/Projects/Raytracer/include/color.h \
   /Users/dominicperno/Projects/Raytracer/include/common.h \
   /Users/dominicperno/Projects/Raytracer/include/interval.h \
+  /Users/dominicperno/Projects/Raytracer/include/material.h \
   /Users/dominicperno/Projects/Raytracer/include/ray.h \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h \
@@ -942,6 +943,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Users/dominicperno/Projects/Raytracer/include/vec3.h:
 
 /Users/dominicperno/Projects/Raytracer/include/ray.h:
+
+/Users/dominicperno/Projects/Raytracer/include/material.h:
 
 /Users/dominicperno/Projects/Raytracer/include/common.h:
 
