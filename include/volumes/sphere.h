@@ -24,7 +24,7 @@ class sphere : public volume {
             // Find the nearest root that lies in the acceptable range.
             auto root = (h - sqrtd) / a;
             if (!ray_t.surrounds(root)) {
-                auto root = (h + sqrtd) / a;
+                root = (h + sqrtd) / a;
                 if (!ray_t.surrounds(root)) {
                     return false;
                 }
