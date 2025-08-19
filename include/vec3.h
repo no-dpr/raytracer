@@ -47,6 +47,14 @@ class vec3 {
         double length() const {
             return std::sqrt(length_squared());
         }
+
+        static vec3 random() {
+            return vec3(random_double(), random_double(), random_double());
+        }
+
+        static vec3 random(double min, double max) {
+            return vec3(random_double(min, max), random_double(min, max), random_double(min, max));
+        }
 };
 
 // point3 is an alias for vec3, useful for geometric clarity.
@@ -95,6 +103,22 @@ inline vec3 cross(const vec3& u, const vec3& v) {
 
 inline vec3 unit_vector(const vec3& v) {
     return v / v.length();
+}
+
+inline vec3 random_unit_vector() {
+    while (true) {
+        auto p = vec3::random(-1, 1);
+        auto lensq = p.length_squared();
+        if (lensq > 1e-160 && lensq <= 1) 
+            return p / sqrt(lensq);
+    }
+}
+
+inline vec3 random_vector_on_hemisphere(const vec3& normal) {
+    vec3 candidate = random_unit_vector();
+    if (dot(candidate, normal) > 0.0)
+        return candidate;
+    else return -candidate;
 }
 
 #endif
