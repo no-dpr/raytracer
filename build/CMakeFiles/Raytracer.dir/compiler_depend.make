@@ -826,10 +826,13 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/dominicperno/Projects/Raytracer/include/color.h \
+  /Users/dominicperno/Projects/Raytracer/include/ray.h \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h
 
 
 /Users/dominicperno/Projects/Raytracer/include/vec3.h:
+
+/Users/dominicperno/Projects/Raytracer/include/ray.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h:
 
