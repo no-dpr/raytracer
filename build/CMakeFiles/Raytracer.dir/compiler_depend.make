@@ -853,6 +853,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
   /Users/dominicperno/Projects/Raytracer/include/color.h \
   /Users/dominicperno/Projects/Raytracer/include/common.h \
+  /Users/dominicperno/Projects/Raytracer/include/interval.h \
   /Users/dominicperno/Projects/Raytracer/include/ray.h \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h \
@@ -1925,6 +1926,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Users/dominicperno/Projects/Raytracer/include/color.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/climits:
+
+/Users/dominicperno/Projects/Raytracer/include/interval.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_polymorphic.h:
 

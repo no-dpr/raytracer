@@ -828,6 +828,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h \
   /Users/dominicperno/Projects/Raytracer/include/interval.h \
   /Users/dominicperno/Projects/Raytracer/include/ray.h \
+  /Users/dominicperno/Projects/Raytracer/include/camera.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/vector \
