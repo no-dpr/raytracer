@@ -1,0 +1,3 @@
+/Users/dominicperno/Projects/Raytracer/build/CMakeFiles/Raytracer.dir
+/Users/dominicperno/Projects/Raytracer/build/CMakeFiles/edit_cache.dir
+/Users/dominicperno/Projects/Raytracer/build/CMakeFiles/rebuild_cache.dir
