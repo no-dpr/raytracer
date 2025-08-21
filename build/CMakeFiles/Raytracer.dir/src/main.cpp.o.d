@@ -931,6 +931,11 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume.h \
   /Users/dominicperno/Projects/Raytracer/include/aabb.h \
   /Users/dominicperno/Projects/Raytracer/include/material.h \
+  /Users/dominicperno/Projects/Raytracer/include/texture.h \
+  /Users/dominicperno/Projects/Raytracer/include/perlin.h \
+  /Users/dominicperno/Projects/Raytracer/include/rtw_stb_image.h \
+  /Users/dominicperno/Projects/Raytracer/include/external/stb_image.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h

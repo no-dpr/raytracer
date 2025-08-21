@@ -32,6 +32,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/adjacent_find.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/all_of.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/any_of.h \
@@ -928,9 +929,13 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Users/dominicperno/Projects/Raytracer/include/camera.h \
   /Users/dominicperno/Projects/Raytracer/include/color.h \
   /Users/dominicperno/Projects/Raytracer/include/common.h \
+  /Users/dominicperno/Projects/Raytracer/include/external/stb_image.h \
   /Users/dominicperno/Projects/Raytracer/include/interval.h \
   /Users/dominicperno/Projects/Raytracer/include/material.h \
+  /Users/dominicperno/Projects/Raytracer/include/perlin.h \
   /Users/dominicperno/Projects/Raytracer/include/ray.h \
+  /Users/dominicperno/Projects/Raytracer/include/rtw_stb_image.h \
+  /Users/dominicperno/Projects/Raytracer/include/texture.h \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h \
@@ -946,9 +951,13 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Users/dominicperno/Projects/Raytracer/include/vec3.h:
 
+/Users/dominicperno/Projects/Raytracer/include/rtw_stb_image.h:
+
 /Users/dominicperno/Projects/Raytracer/include/ray.h:
 
 /Users/dominicperno/Projects/Raytracer/include/material.h:
+
+/Users/dominicperno/Projects/Raytracer/include/external/stb_image.h:
 
 /Users/dominicperno/Projects/Raytracer/include/common.h:
 
@@ -985,6 +994,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_va_list.h:
+
+/Users/dominicperno/Projects/Raytracer/include/perlin.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_useconds_t.h:
 
@@ -1119,10 +1130,6 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/machine/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/machine/_mcontext.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/wctype.h:
 
@@ -1628,10 +1635,6 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/voidify.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/streambuf:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/remove_all_extents.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
@@ -1821,6 +1824,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__iterator/access.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ios/fpos.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/tuple.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backend.h:
 
@@ -2050,6 +2055,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config_site:
 
+/Users/dominicperno/Projects/Raytracer/include/texture.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__type_traits/is_member_object_pointer.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/has_single_bit.h:
@@ -2186,6 +2193,10 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__compare/partial_order.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/locale.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/set_intersection.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__bit/popcount.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/partial_sort_copy.h:
@@ -2237,6 +2248,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_unique.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_swap_ranges.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/stdint.h:
 
@@ -2484,10 +2497,6 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/arm/_types.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/sort.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__ranges/data.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/ranges_stable_sort.h:
@@ -2670,8 +2679,6 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/get.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__fwd/tuple.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/for_each.h:
 
 /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h:
@@ -2714,11 +2721,9 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_wctype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/any_of.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/streambuf:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/sys/_types/_seek_set.h:
 
@@ -2727,6 +2732,16 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/in_in_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_backward.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/pstl_backends/cpu_backends/any_of.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/sort.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/is_heap_until.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/copy_if.h:
 

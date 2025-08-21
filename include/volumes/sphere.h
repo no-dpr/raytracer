@@ -49,9 +49,18 @@ class sphere : public volume {
             rec.p = r.at(rec.t);
             vec3 outward_normal = (rec.p - current_center) / radius;
             rec.set_face_normal(r, outward_normal);
+            get_sphere_uv(outward_normal, rec.u, rec.v);
             rec.mat = mat;
 
             return true;
+        }
+
+        static void get_sphere_uv(const point3& p, double& u, double&v) {
+            auto theta = std::acos(-p.y());
+            auto phi = std::atan2(-p.z(), p.x()) + PI;
+
+            u = phi / (2 * PI);
+            v = theta / PI;
         }
 
     private:
