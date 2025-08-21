@@ -924,6 +924,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/dominicperno/Projects/Raytracer/include/aabb.h \
   /Users/dominicperno/Projects/Raytracer/include/camera.h \
   /Users/dominicperno/Projects/Raytracer/include/color.h \
   /Users/dominicperno/Projects/Raytracer/include/common.h \
@@ -931,6 +932,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Users/dominicperno/Projects/Raytracer/include/material.h \
   /Users/dominicperno/Projects/Raytracer/include/ray.h \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h \
+  /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h
@@ -940,6 +942,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 
 /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h:
 
+/Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h:
+
 /Users/dominicperno/Projects/Raytracer/include/vec3.h:
 
 /Users/dominicperno/Projects/Raytracer/include/ray.h:
@@ -947,6 +951,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Users/dominicperno/Projects/Raytracer/include/material.h:
 
 /Users/dominicperno/Projects/Raytracer/include/common.h:
+
+/Users/dominicperno/Projects/Raytracer/include/aabb.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h:
 

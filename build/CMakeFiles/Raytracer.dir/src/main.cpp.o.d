@@ -929,6 +929,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: \
   /Users/dominicperno/Projects/Raytracer/include/ray.h \
   /Users/dominicperno/Projects/Raytracer/include/camera.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume.h \
+  /Users/dominicperno/Projects/Raytracer/include/aabb.h \
   /Users/dominicperno/Projects/Raytracer/include/material.h \
+  /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h
