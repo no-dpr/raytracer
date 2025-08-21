@@ -72,14 +72,22 @@ class image_texture : public texture {
 
 class noise_texture : public texture {
     public:
-        noise_texture() : noise() {}
+        noise_texture(double scale) 
+            : scale(scale), turb_value(0), turb_depth(7)  {}
+
+        noise_texture(double scale, double turb_value, double turb_depth) 
+            : scale(scale), turb_value(turb_value), turb_depth(turb_depth)  {}
 
         color value(double u, double v, const point3& p) const override {
-            return color(1, 1, 1) * noise.noise(p);
+            return color(1, 1, 1) * 0.5 * (1.0 + noise.noise(scale * p)) 
+                * (1 + std::sin(scale * p.z() + turb_value * noise.turb(p, turb_depth)));
         }
 
     private:
         perlin noise;
+        double scale;
+        double turb_value;
+        int turb_depth;
 };
 
 #endif
