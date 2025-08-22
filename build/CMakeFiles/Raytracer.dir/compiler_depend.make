@@ -938,6 +938,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Users/dominicperno/Projects/Raytracer/include/texture.h \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h \
+  /Users/dominicperno/Projects/Raytracer/include/volumes/constant_medium.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/quad.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume.h \
@@ -2629,6 +2630,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/for_each_segment.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__chrono/convert_to_timespec.h:
+
+/Users/dominicperno/Projects/Raytracer/include/volumes/constant_medium.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/max.h:
 
