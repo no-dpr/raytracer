@@ -938,6 +938,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
   /Users/dominicperno/Projects/Raytracer/include/texture.h \
   /Users/dominicperno/Projects/Raytracer/include/vec3.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h \
+  /Users/dominicperno/Projects/Raytracer/include/volumes/quad.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h
@@ -1946,6 +1947,8 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: /Users/dominicperno/Projects/Raytracer/
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/_types/_wctype_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__algorithm/partial_sort.h:
+
+/Users/dominicperno/Projects/Raytracer/include/volumes/quad.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
 

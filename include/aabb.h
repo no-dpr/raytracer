@@ -9,7 +9,9 @@ class aabb {
 
         aabb() {}
 
-        aabb(const interval& x, const interval& y, const interval& z) : x(x), y(y), z(z) {}
+        aabb(const interval& x, const interval& y, const interval& z) : x(x), y(y), z(z) {
+            pad_to_minimums();
+        }
 
         aabb(const point3& a, const point3& b) {
             x = (a.x() < b.x()) ? interval(a.x(), b.x()) :  interval(b.x(), a.x());
@@ -29,8 +31,16 @@ class aabb {
             else return z;
         }
 
-        aabb expand(double delta) const {
+        aabb expand(double delta = 0.0001) const {
             return aabb(x.expand(delta), y.expand(delta), z.expand(delta));
+        }
+
+        aabb pad(double delta = 0.0001) const {
+            interval new_x = (x.size() < delta) ? x.expand(delta) : x;
+            interval new_y = (y.size() < delta) ? y.expand(delta) : y;
+            interval new_z = (z.size() < delta) ? z.expand(delta) : z;
+
+            return aabb(new_x, new_y, new_z);
         }
 
         bool hit(const ray& r, interval ray_t) const {
@@ -67,6 +77,14 @@ class aabb {
 
         static const aabb empty;
         static const aabb universe;
+        
+    private:
+        void pad_to_minimums() {
+            double delta = 0.0001;
+            if (x.size() < delta) x.expand(delta);
+            if (y.size() < delta) y.expand(delta);
+            if (z.size() < delta) z.expand(delta);
+        }
 };
 
 const aabb aabb::empty = aabb(interval::empty, interval::empty, interval::empty);

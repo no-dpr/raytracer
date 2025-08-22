@@ -938,4 +938,5 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/assert.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h \
+  /Users/dominicperno/Projects/Raytracer/include/volumes/quad.h \
   /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h

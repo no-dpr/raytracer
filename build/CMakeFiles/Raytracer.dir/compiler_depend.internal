@@ -939,6 +939,7 @@ CMakeFiles/Raytracer.dir/src/main.cpp.o
  /Users/dominicperno/Projects/Raytracer/include/texture.h
  /Users/dominicperno/Projects/Raytracer/include/vec3.h
  /Users/dominicperno/Projects/Raytracer/include/volumes/bvh.h
+ /Users/dominicperno/Projects/Raytracer/include/volumes/quad.h
  /Users/dominicperno/Projects/Raytracer/include/volumes/sphere.h
  /Users/dominicperno/Projects/Raytracer/include/volumes/volume.h
  /Users/dominicperno/Projects/Raytracer/include/volumes/volume_list.h
