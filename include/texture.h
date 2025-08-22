@@ -73,7 +73,7 @@ class image_texture : public texture {
 class noise_texture : public texture {
     public:
         noise_texture(double scale) 
-            : scale(scale), turb_value(0), turb_depth(7)  {}
+            : scale(scale), turb_value(10), turb_depth(7)  {}
 
         noise_texture(double scale, double turb_value, double turb_depth) 
             : scale(scale), turb_value(turb_value), turb_depth(turb_depth)  {}
